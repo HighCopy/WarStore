@@ -3,7 +3,7 @@
     -moz-box-sizing: border-box;
     box-sizing: border-box;--main-color: #ff0000;
     --secondary-color: #ffffff;--BG-color: #090000;}
-html{scroll-behavior: smooth;background-image: url(../Image/InBG.jpg);background-size: 100%;margin: 0;}
+html{scroll-behavior: smooth;background-color: #040000;margin: 0;}
 body{font-family: 'Work Sans', sans-serif;}
 a{text-decoration: none;color: white;}
 .container{margin: 0 auto;}
