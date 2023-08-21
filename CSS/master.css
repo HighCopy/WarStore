@@ -20,7 +20,7 @@ header p{font-size: 30px ;margin:10px auto;text-align: center;color: var(--main-
 /*End header*/
 /*Start main*/
 main {display: grid;grid-template-columns: repeat(auto-fill , 350px);
-    justify-content: space-around;background-image: url(../Image/FBG.png);
+    justify-content: space-around;background-color: #6b0000;
     box-shadow: inset 0 0 25px 15px var(--secondary-color);
     background-repeat: no-repeat;background-size: cover;}
         main a :hover{box-shadow: 0 0 25px 15px var(--main-color);}
