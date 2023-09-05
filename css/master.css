@@ -1,0 +1,33 @@
+/* start Glopal Rules*/
+*{-webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;--main-color: #ff0000;
+    --secondary-color: #ffffff;--BG-color: #090000;}
+html{scroll-behavior: smooth;background-image: url(../image/InBG.jpg);background-size: 100%;margin: 0;}
+body{font-family: 'Work Sans', sans-serif;}
+a{text-decoration: none;color: white;}
+.container{margin: 0 auto;}
+/* End Glopal Rules */
+/*Start header*/
+.page-banner {width: 100%;height: 250px;}
+.page-logo   {width: 200px; margin-left: calc(50% - 100px); margin-top: -246px;}
+nav{background-color: var(--BG-color);height: 50px;margin-top: -23px;display: flex;flex-wrap: wrap;}
+    nav a{font-size: 30px;margin-top: 10px;margin-bottom: 10px;margin-left: 15px;}
+    @media (max-width:532px) {nav{height: 100px;}}
+        nav a:hover{color: var(--main-color);}
+h1{font-size: 40px;color: var(--main-color);margin:auto;text-align: center;}
+header p{font-size: 30px ;margin:10px auto;text-align: center;color: var(--main-color)}
+/*End header*/
+/*Start main*/
+main {display: grid;grid-template-columns: repeat(auto-fill , 350px);
+    justify-content: space-around;background-image: url(../image/FBG.png);
+    box-shadow: inset 0 0 25px 15px var(--secondary-color);
+    background-repeat: no-repeat;background-size: cover;}
+        main a :hover{box-shadow: 0 0 25px 15px var(--main-color);}
+        figure{display: inline-block;}
+        figure img{max-width: 100%;}
+            figcaption{color: var(--main-color);text-align: center;font-size: 30px;margin-top: -50px;}
+/*End main*/
+/*Start Footer*/
+footer{color: rgb(255, 255, 255)}
+/*End Footer*/
